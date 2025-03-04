@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Recognition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: radial-gradient(circle, #f8f0d8, #e9d8a6);
+            font-family: 'Libre Baskerville', serif;
+        }
+        .certificate {
+            border: 10px solid #b8860b;
+            padding: 60px;
+            width: 850px;
+            text-align: center;
+            position: relative;
+            background: white;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .certificate h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 50px;
+            color: #b8860b;
+            margin: 10px 0;
+        }
+        .certificate h2, .certificate h3, .certificate p {
+            color: #444;
+        }
+        .certificate h3 {
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .certificate .signatures {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            padding: 0 20px;
+        }
+        .certificate .signatures div {
+            text-align: center;
+        }
+        .certificate .signatures div hr {
+            border-top: 2px solid #b8860b;
+            width: 200px;
+        }
+        .laurel {
+            margin-bottom: 20px;
+        }
+        .laurel img {
+            width: 100px;
+            height: auto;
+        }
+        /* Decorative Floral Designs */
+        .corner {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+        }
+        .top-left { top: 10px; left: 10px; }
+        .top-right { top: 10px; right: 10px; transform: rotate(90deg); }
+        .bottom-left { bottom: 10px; left: 10px; transform: rotate(-90deg); }
+        .bottom-right { bottom: 10px; right: 10px; transform: rotate(180deg); }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <!-- Decorative Floral Corners -->
+        <img class="corner top-left" src="assets/border.png" alt="Floral Decoration">
+        <img class="corner top-right" src="assets/border.png" alt="Floral Decoration">
+        <img class="corner bottom-left" src="assets/border.png" alt="Floral Decoration">
+        <img class="corner bottom-right" src="assets/border.png" alt="Floral Decoration">
+
+        <div class="laurel">
+            <img src="assets/medal.png" alt="Laurel wreath">
+        </div>
+        <h1>Certificate of Recognition</h1>
+        <h2>This award is given to</h2>
+        <h3>SMRITI NAIK</h3>
+        <p>Recognized for <b>Outstanding Excellence in Web Development</b></p>
+        <p>For the year 2024-2025</p>
+        <div class="signatures">
+            <div>
+                <hr>
+                <p>CIA RODRIGUEZ</p>
+                <p>Curriculum Dean</p>
+            </div>
+            <div>
+                <hr>
+                <p>FRANK MARCEL</p>
+                <p>School Director</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
